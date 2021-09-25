@@ -1,0 +1,947 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C027D1D526FF0C320002A6D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C027D1D426FF0C320002A6D0 /* AppDelegate.swift */; };
+		C027D1D726FF0C320002A6D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C027D1D626FF0C320002A6D0 /* SceneDelegate.swift */; };
+		C027D1DA26FF0C320002A6D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C027D1D826FF0C320002A6D0 /* LaunchScreen.storyboard */; };
+		C027D1DD26FF0C320002A6D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C027D1DB26FF0C320002A6D0 /* Main.storyboard */; };
+		C027D1E626FF0C320002A6D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C027D1E526FF0C320002A6D0 /* AppDelegate.swift */; };
+		C027D1E926FF0C320002A6D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C027D1E726FF0C320002A6D0 /* Main.storyboard */; };
+		C027D1F126FF0C320002A6D0 /* Rainbow Bridge Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C027D1F026FF0C320002A6D0 /* Rainbow Bridge Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C027D1FB26FF0C320002A6D0 /* Rainbow Bridge Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C027D1FA26FF0C320002A6D0 /* Rainbow Bridge Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C027D20026FF0C320002A6D0 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = C027D1C426FF0C2F0002A6D0 /* Main.html */; };
+		C027D20126FF0C320002A6D0 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = C027D1C426FF0C2F0002A6D0 /* Main.html */; };
+		C027D20226FF0C320002A6D0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C027D1C626FF0C2F0002A6D0 /* Icon.png */; };
+		C027D20326FF0C320002A6D0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C027D1C626FF0C2F0002A6D0 /* Icon.png */; };
+		C027D20426FF0C320002A6D0 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = C027D1C726FF0C2F0002A6D0 /* Style.css */; };
+		C027D20526FF0C320002A6D0 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = C027D1C726FF0C2F0002A6D0 /* Style.css */; };
+		C027D20626FF0C320002A6D0 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = C027D1C826FF0C2F0002A6D0 /* Script.js */; };
+		C027D20726FF0C320002A6D0 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = C027D1C826FF0C2F0002A6D0 /* Script.js */; };
+		C027D20826FF0C320002A6D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C027D1C926FF0C2F0002A6D0 /* ViewController.swift */; };
+		C027D20926FF0C320002A6D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C027D1C926FF0C2F0002A6D0 /* ViewController.swift */; };
+		C027D20A26FF0C320002A6D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C027D1CA26FF0C310002A6D0 /* Assets.xcassets */; };
+		C027D20B26FF0C320002A6D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C027D1CA26FF0C310002A6D0 /* Assets.xcassets */; };
+		C027D20C26FF0C320002A6D0 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C027D1CC26FF0C310002A6D0 /* SafariWebExtensionHandler.swift */; };
+		C027D20D26FF0C320002A6D0 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C027D1CC26FF0C310002A6D0 /* SafariWebExtensionHandler.swift */; };
+		C027D22226FF0C330002A6D0 /* dist in Resources */ = {isa = PBXBuildFile; fileRef = C027D21F26FF0C330002A6D0 /* dist */; };
+		C027D22326FF0C340002A6D0 /* img in Resources */ = {isa = PBXBuildFile; fileRef = C027D22026FF0C330002A6D0 /* img */; };
+		C027D22426FF0C340002A6D0 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C027D22126FF0C330002A6D0 /* manifest.json */; };
+		C027D22526FF0C340002A6D0 /* dist in Resources */ = {isa = PBXBuildFile; fileRef = C027D21F26FF0C330002A6D0 /* dist */; };
+		C027D22626FF0C340002A6D0 /* img in Resources */ = {isa = PBXBuildFile; fileRef = C027D22026FF0C330002A6D0 /* img */; };
+		C027D22726FF0C340002A6D0 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C027D22126FF0C330002A6D0 /* manifest.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C027D1F226FF0C320002A6D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C027D1BE26FF0C2F0002A6D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C027D1EF26FF0C320002A6D0;
+			remoteInfo = "Rainbow Bridge Extension (iOS)";
+		};
+		C027D1FC26FF0C320002A6D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C027D1BE26FF0C2F0002A6D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C027D1F926FF0C320002A6D0;
+			remoteInfo = "Rainbow Bridge Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C027D21326FF0C320002A6D0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C027D1F126FF0C320002A6D0 /* Rainbow Bridge Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C027D21A26FF0C320002A6D0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C027D1FB26FF0C320002A6D0 /* Rainbow Bridge Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C027D1C526FF0C2F0002A6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		C027D1C626FF0C2F0002A6D0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C027D1C726FF0C2F0002A6D0 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		C027D1C826FF0C2F0002A6D0 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		C027D1C926FF0C2F0002A6D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C027D1CA26FF0C310002A6D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C027D1CC26FF0C310002A6D0 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		C027D1D126FF0C320002A6D0 /* Rainbow Bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rainbow Bridge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C027D1D426FF0C320002A6D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C027D1D626FF0C320002A6D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C027D1D926FF0C320002A6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C027D1DC26FF0C320002A6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C027D1DE26FF0C320002A6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C027D1E326FF0C320002A6D0 /* Rainbow Bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rainbow Bridge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C027D1E526FF0C320002A6D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C027D1E826FF0C320002A6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C027D1EA26FF0C320002A6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C027D1EB26FF0C320002A6D0 /* Rainbow Bridge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Rainbow Bridge.entitlements"; sourceTree = "<group>"; };
+		C027D1F026FF0C320002A6D0 /* Rainbow Bridge Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Rainbow Bridge Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C027D1F526FF0C320002A6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C027D1FA26FF0C320002A6D0 /* Rainbow Bridge Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Rainbow Bridge Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C027D1FF26FF0C320002A6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C027D21F26FF0C330002A6D0 /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dist; path = ../../../build/dist; sourceTree = "<group>"; };
+		C027D22026FF0C330002A6D0 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = img; path = ../../../build/img; sourceTree = "<group>"; };
+		C027D22126FF0C330002A6D0 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../build/manifest.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C027D1CE26FF0C310002A6D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C027D1E026FF0C320002A6D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C027D1ED26FF0C320002A6D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C027D1F726FF0C320002A6D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C027D1BD26FF0C2F0002A6D0 = {
+			isa = PBXGroup;
+			children = (
+				C027D1C226FF0C2F0002A6D0 /* Shared (App) */,
+				C027D1CB26FF0C310002A6D0 /* Shared (Extension) */,
+				C027D1D326FF0C320002A6D0 /* iOS (App) */,
+				C027D1E426FF0C320002A6D0 /* macOS (App) */,
+				C027D1F426FF0C320002A6D0 /* iOS (Extension) */,
+				C027D1FE26FF0C320002A6D0 /* macOS (Extension) */,
+				C027D1D226FF0C320002A6D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C027D1C226FF0C2F0002A6D0 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				C027D1C926FF0C2F0002A6D0 /* ViewController.swift */,
+				C027D1CA26FF0C310002A6D0 /* Assets.xcassets */,
+				C027D1C326FF0C2F0002A6D0 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		C027D1C326FF0C2F0002A6D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C027D1C426FF0C2F0002A6D0 /* Main.html */,
+				C027D1C626FF0C2F0002A6D0 /* Icon.png */,
+				C027D1C726FF0C2F0002A6D0 /* Style.css */,
+				C027D1C826FF0C2F0002A6D0 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C027D1CB26FF0C310002A6D0 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				C027D21E26FF0C330002A6D0 /* Resources */,
+				C027D1CC26FF0C310002A6D0 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		C027D1D226FF0C320002A6D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C027D1D126FF0C320002A6D0 /* Rainbow Bridge.app */,
+				C027D1E326FF0C320002A6D0 /* Rainbow Bridge.app */,
+				C027D1F026FF0C320002A6D0 /* Rainbow Bridge Extension.appex */,
+				C027D1FA26FF0C320002A6D0 /* Rainbow Bridge Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C027D1D326FF0C320002A6D0 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				C027D1D426FF0C320002A6D0 /* AppDelegate.swift */,
+				C027D1D626FF0C320002A6D0 /* SceneDelegate.swift */,
+				C027D1D826FF0C320002A6D0 /* LaunchScreen.storyboard */,
+				C027D1DB26FF0C320002A6D0 /* Main.storyboard */,
+				C027D1DE26FF0C320002A6D0 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		C027D1E426FF0C320002A6D0 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				C027D1E526FF0C320002A6D0 /* AppDelegate.swift */,
+				C027D1E726FF0C320002A6D0 /* Main.storyboard */,
+				C027D1EA26FF0C320002A6D0 /* Info.plist */,
+				C027D1EB26FF0C320002A6D0 /* Rainbow Bridge.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		C027D1F426FF0C320002A6D0 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				C027D1F526FF0C320002A6D0 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		C027D1FE26FF0C320002A6D0 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				C027D1FF26FF0C320002A6D0 /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		C027D21E26FF0C330002A6D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C027D21F26FF0C330002A6D0 /* dist */,
+				C027D22026FF0C330002A6D0 /* img */,
+				C027D22126FF0C330002A6D0 /* manifest.json */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C027D1D026FF0C310002A6D0 /* Rainbow Bridge (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C027D21426FF0C320002A6D0 /* Build configuration list for PBXNativeTarget "Rainbow Bridge (iOS)" */;
+			buildPhases = (
+				C027D1CD26FF0C310002A6D0 /* Sources */,
+				C027D1CE26FF0C310002A6D0 /* Frameworks */,
+				C027D1CF26FF0C310002A6D0 /* Resources */,
+				C027D21326FF0C320002A6D0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C027D1F326FF0C320002A6D0 /* PBXTargetDependency */,
+			);
+			name = "Rainbow Bridge (iOS)";
+			productName = "Rainbow Bridge (iOS)";
+			productReference = C027D1D126FF0C320002A6D0 /* Rainbow Bridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C027D1E226FF0C320002A6D0 /* Rainbow Bridge (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C027D21B26FF0C320002A6D0 /* Build configuration list for PBXNativeTarget "Rainbow Bridge (macOS)" */;
+			buildPhases = (
+				C027D1DF26FF0C320002A6D0 /* Sources */,
+				C027D1E026FF0C320002A6D0 /* Frameworks */,
+				C027D1E126FF0C320002A6D0 /* Resources */,
+				C027D21A26FF0C320002A6D0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C027D1FD26FF0C320002A6D0 /* PBXTargetDependency */,
+			);
+			name = "Rainbow Bridge (macOS)";
+			productName = "Rainbow Bridge (macOS)";
+			productReference = C027D1E326FF0C320002A6D0 /* Rainbow Bridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C027D1EF26FF0C320002A6D0 /* Rainbow Bridge Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C027D21026FF0C320002A6D0 /* Build configuration list for PBXNativeTarget "Rainbow Bridge Extension (iOS)" */;
+			buildPhases = (
+				C027D1EC26FF0C320002A6D0 /* Sources */,
+				C027D1ED26FF0C320002A6D0 /* Frameworks */,
+				C027D1EE26FF0C320002A6D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rainbow Bridge Extension (iOS)";
+			productName = "Rainbow Bridge Extension (iOS)";
+			productReference = C027D1F026FF0C320002A6D0 /* Rainbow Bridge Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C027D1F926FF0C320002A6D0 /* Rainbow Bridge Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C027D21726FF0C320002A6D0 /* Build configuration list for PBXNativeTarget "Rainbow Bridge Extension (macOS)" */;
+			buildPhases = (
+				C027D1F626FF0C320002A6D0 /* Sources */,
+				C027D1F726FF0C320002A6D0 /* Frameworks */,
+				C027D1F826FF0C320002A6D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rainbow Bridge Extension (macOS)";
+			productName = "Rainbow Bridge Extension (macOS)";
+			productReference = C027D1FA26FF0C320002A6D0 /* Rainbow Bridge Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C027D1BE26FF0C2F0002A6D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					C027D1D026FF0C310002A6D0 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					C027D1E226FF0C320002A6D0 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					C027D1EF26FF0C320002A6D0 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					C027D1F926FF0C320002A6D0 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = C027D1C126FF0C2F0002A6D0 /* Build configuration list for PBXProject "Rainbow Bridge" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C027D1BD26FF0C2F0002A6D0;
+			productRefGroup = C027D1D226FF0C320002A6D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C027D1D026FF0C310002A6D0 /* Rainbow Bridge (iOS) */,
+				C027D1E226FF0C320002A6D0 /* Rainbow Bridge (macOS) */,
+				C027D1EF26FF0C320002A6D0 /* Rainbow Bridge Extension (iOS) */,
+				C027D1F926FF0C320002A6D0 /* Rainbow Bridge Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C027D1CF26FF0C310002A6D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C027D20226FF0C320002A6D0 /* Icon.png in Resources */,
+				C027D1DA26FF0C320002A6D0 /* LaunchScreen.storyboard in Resources */,
+				C027D20026FF0C320002A6D0 /* Main.html in Resources */,
+				C027D20626FF0C320002A6D0 /* Script.js in Resources */,
+				C027D20A26FF0C320002A6D0 /* Assets.xcassets in Resources */,
+				C027D1DD26FF0C320002A6D0 /* Main.storyboard in Resources */,
+				C027D20426FF0C320002A6D0 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C027D1E126FF0C320002A6D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C027D20326FF0C320002A6D0 /* Icon.png in Resources */,
+				C027D20526FF0C320002A6D0 /* Style.css in Resources */,
+				C027D1E926FF0C320002A6D0 /* Main.storyboard in Resources */,
+				C027D20726FF0C320002A6D0 /* Script.js in Resources */,
+				C027D20B26FF0C320002A6D0 /* Assets.xcassets in Resources */,
+				C027D20126FF0C320002A6D0 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C027D1EE26FF0C320002A6D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C027D22626FF0C340002A6D0 /* img in Resources */,
+				C027D22726FF0C340002A6D0 /* manifest.json in Resources */,
+				C027D22526FF0C340002A6D0 /* dist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C027D1F826FF0C320002A6D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C027D22326FF0C340002A6D0 /* img in Resources */,
+				C027D22426FF0C340002A6D0 /* manifest.json in Resources */,
+				C027D22226FF0C330002A6D0 /* dist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C027D1CD26FF0C310002A6D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C027D20826FF0C320002A6D0 /* ViewController.swift in Sources */,
+				C027D1D526FF0C320002A6D0 /* AppDelegate.swift in Sources */,
+				C027D1D726FF0C320002A6D0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C027D1DF26FF0C320002A6D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C027D20926FF0C320002A6D0 /* ViewController.swift in Sources */,
+				C027D1E626FF0C320002A6D0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C027D1EC26FF0C320002A6D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C027D20C26FF0C320002A6D0 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C027D1F626FF0C320002A6D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C027D20D26FF0C320002A6D0 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C027D1F326FF0C320002A6D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C027D1EF26FF0C320002A6D0 /* Rainbow Bridge Extension (iOS) */;
+			targetProxy = C027D1F226FF0C320002A6D0 /* PBXContainerItemProxy */;
+		};
+		C027D1FD26FF0C320002A6D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C027D1F926FF0C320002A6D0 /* Rainbow Bridge Extension (macOS) */;
+			targetProxy = C027D1FC26FF0C320002A6D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C027D1C426FF0C2F0002A6D0 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C027D1C526FF0C2F0002A6D0 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		C027D1D826FF0C320002A6D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C027D1D926FF0C320002A6D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C027D1DB26FF0C320002A6D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C027D1DC26FF0C320002A6D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C027D1E726FF0C320002A6D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C027D1E826FF0C320002A6D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C027D20E26FF0C320002A6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C027D20F26FF0C320002A6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C027D21126FF0C320002A6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LR4RJT6586;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Rainbow Bridge Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.m1guelpf.Rainbow-Bridge.Extension";
+				PRODUCT_NAME = "Rainbow Bridge Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C027D21226FF0C320002A6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LR4RJT6586;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Rainbow Bridge Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.m1guelpf.Rainbow-Bridge.Extension";
+				PRODUCT_NAME = "Rainbow Bridge Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C027D21526FF0C320002A6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LR4RJT6586;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Rainbow Bridge";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.m1guelpf.Rainbow-Bridge";
+				PRODUCT_NAME = "Rainbow Bridge";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C027D21626FF0C320002A6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LR4RJT6586;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Rainbow Bridge";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.m1guelpf.Rainbow-Bridge";
+				PRODUCT_NAME = "Rainbow Bridge";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C027D21826FF0C320002A6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LR4RJT6586;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Rainbow Bridge Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.m1guelpf.Rainbow-Bridge.Extension";
+				PRODUCT_NAME = "Rainbow Bridge Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C027D21926FF0C320002A6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LR4RJT6586;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Rainbow Bridge Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.m1guelpf.Rainbow-Bridge.Extension";
+				PRODUCT_NAME = "Rainbow Bridge Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C027D21C26FF0C320002A6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Rainbow Bridge.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LR4RJT6586;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Rainbow Bridge";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.m1guelpf.Rainbow-Bridge";
+				PRODUCT_NAME = "Rainbow Bridge";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C027D21D26FF0C320002A6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Rainbow Bridge.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LR4RJT6586;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Rainbow Bridge";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.m1guelpf.Rainbow-Bridge";
+				PRODUCT_NAME = "Rainbow Bridge";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C027D1C126FF0C2F0002A6D0 /* Build configuration list for PBXProject "Rainbow Bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C027D20E26FF0C320002A6D0 /* Debug */,
+				C027D20F26FF0C320002A6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C027D21026FF0C320002A6D0 /* Build configuration list for PBXNativeTarget "Rainbow Bridge Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C027D21126FF0C320002A6D0 /* Debug */,
+				C027D21226FF0C320002A6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C027D21426FF0C320002A6D0 /* Build configuration list for PBXNativeTarget "Rainbow Bridge (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C027D21526FF0C320002A6D0 /* Debug */,
+				C027D21626FF0C320002A6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C027D21726FF0C320002A6D0 /* Build configuration list for PBXNativeTarget "Rainbow Bridge Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C027D21826FF0C320002A6D0 /* Debug */,
+				C027D21926FF0C320002A6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C027D21B26FF0C320002A6D0 /* Build configuration list for PBXNativeTarget "Rainbow Bridge (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C027D21C26FF0C320002A6D0 /* Debug */,
+				C027D21D26FF0C320002A6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C027D1BE26FF0C2F0002A6D0 /* Project object */;
+}
